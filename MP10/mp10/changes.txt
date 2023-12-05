@@ -1,0 +1,6 @@
+- Tog bort ena, include i game_of_life.c
+- Uppdaterat minnes allokering och dellakoring funktionsnamnen. 
+- Lade till så att filen file pointern stängs i load och save config from file.
+- Deallokerar minnet om något går fel vid inläsningen.
+- Lade till write to file som en egen funktion istället för att det görs i main loopen.
+- Lade till kontroll av EOF (End of file som motsvarar -1) samt om fp == null som kontroller om det inte går att spara våra config och då returneras 1 enligt specifikation.
